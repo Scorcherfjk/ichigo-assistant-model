@@ -11,7 +11,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 stopwd = stopwords.words('spanish')
 
-col = pickle.load(open('../model/IchigoModel.columns.v1.pckl', 'rb'))
+col = pickle.load(open('../model/IchigoModel.v1.pckl', 'rb'))["columns"]
 str_col = [str(c) for c in col]
 
 def transform(text) -> list:
