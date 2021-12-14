@@ -3,5 +3,4 @@ spacy
 matplotlib
 numpy
 pandas
-plotly
-jupyterlab
+stanza
